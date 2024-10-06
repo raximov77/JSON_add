@@ -1,4 +1,18 @@
 {
-  "students": [],
-  "teachers": []
+  "students": [
+    {
+      "id": "6c89",
+      "name": "2",
+      "surname": "3",
+      "study": "1"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "eeb1",
+      "name": "21",
+      "surname": "2",
+      "job": "1212"
+    }
+  ]
 }

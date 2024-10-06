@@ -23,7 +23,7 @@ function App() {
     }
     if(statusUser == "1"){
       data.study = e.target.job0rStudy.value
-      fetch("http://localhost:4000/students", {
+      fetch("http://localhost:3000/students", {
         method:"POST",
         body:JSON.stringify(data),
         headers:{
@@ -35,7 +35,7 @@ function App() {
     }
     else{
       data.job = e.target.job0rStudy.value
-      fetch("http://localhost:4000/teachers", {
+      fetch("http://localhost:3000/teachers", {
         method:"POST",
         body:JSON.stringify(data),
         headers:{
@@ -47,11 +47,11 @@ function App() {
     }
   }
   useEffect(() => {
-    fetch("http://localhost:4000/students").then(res => res.json())
+    fetch("http://localhost:3000/students").then(res => res.json())
     .then(data => setStudents(data))
   },[refreshStudent])
   useEffect(() => {
-    fetch("http://localhost:4000/teachers").then(res => res.json())
+    fetch("http://localhost:3000/teachers").then(res => res.json())
     .then(data => setTeachers(data))
   },[refreshTeacher])
 

@@ -5,13 +5,13 @@ const { Meta } = Card;
 const Item = ({item, refreshStudent, setrefreshStudent, refreshTeacher, setrefreshTeacher}) => {
     function handleDeleteUser(user){
         if(user.job){
-            fetch(`http://localhost:4000/teachers/${user.id}`, {method:"DELETE"})
+            fetch(`http://localhost:3000/teachers/${user.id}`, {method:"DELETE"})
             .then(res => {
                 setrefreshTeacher(!refreshTeacher)
             })
         }
         else{
-            fetch(`http://localhost:4000/students/${user.id}`, {method:"DELETE"})
+            fetch(`http://localhost:3000/students/${user.id}`, {method:"DELETE"})
             .then(res => {
                 setrefreshStudent(!refreshStudent)
             })
