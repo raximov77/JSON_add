@@ -27,7 +27,7 @@ function App() {
         },
       }).then(() => {
         setRefreshStudent(!refreshStudent);
-        e.target.reset(); // Clear inputs after submission
+        e.target.reset(); 
       });
     } else {
       data.job = e.target.job0rStudy.value;
@@ -39,7 +39,7 @@ function App() {
         },
       }).then(() => {
         setRefreshTeacher(!refreshTeacher);
-        e.target.reset(); // Clear inputs after submission
+        e.target.reset(); 
       });
     }
   }
