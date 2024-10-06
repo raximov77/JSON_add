@@ -1,18 +1,18 @@
 {
   "students": [
     {
-      "id": "6c89",
-      "name": "2",
-      "surname": "3",
-      "study": "1"
+      "id": "d321",
+      "name": "s",
+      "surname": "s",
+      "study": "s"
     }
   ],
   "teachers": [
     {
-      "id": "eeb1",
-      "name": "21",
-      "surname": "2",
-      "job": "1212"
+      "id": "cede",
+      "name": "Ikrom",
+      "surname": "Raximov",
+      "job": "Najot Ta'lim"
     }
   ]
 }
